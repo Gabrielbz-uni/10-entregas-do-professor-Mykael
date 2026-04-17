@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "menu conteudo"
+        "rodape rodape";
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.header {
+    grid-area: header;
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    grid-area: menu;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    color: #007BFF;
+}
+
+.conteudo {
+    grid-area: conteudo;
+    padding: 30px;
+    background: #ffffff;
+}
+
+.rodape {
+    grid-area: rodape;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-areas:
+            "header"
+            "menu"
+            "conteudo"
+            "rodape";
+        grid-template-columns: 1fr;
+    }
+}
