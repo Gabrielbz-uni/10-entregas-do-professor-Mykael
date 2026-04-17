@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background: linear-gradient(to right, #007BFF, #00c6ff);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 15px 25px;
+    border: none;
+    background: white;
+    color: #007BFF;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    transform: scale(1.05);
+}
+
+.beneficios {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.depoimentos {
+    background: #222;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.depo-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.depo {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.cta {
+    text-align: center;
+    padding: 60px 20px;
+    background: #007BFF;
+    color: white;
+}
+
+.cta button {
+    margin-top: 20px;
+    padding: 15px 25px;
+    border: none;
+    background: white;
+    color: #007BFF;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta button:hover {
+    transform: scale(1.05);
+}
