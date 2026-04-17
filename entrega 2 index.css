@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <title>Empresa TechUni</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <!-- MENU -->
+ <nav>
+   <div class="logo">TechUni</div>
+ <ul>
+  <li><a href="#">Início</a></li>
+  <li><a href="#">Sobre</a></li>
+  <li><a href="#">Serviços</a></li>
+  <li><a href="#">Contato</a></li>
+   </ul>
+ </nav>
+
+<section class="banner">
+  <h1>Bem-vindo à TechUni</h1>
+ <p>Inovação e tecnologia para o seu negócio</p>
+</section>
+
+<section class="sobre">
+  <h2>Sobre Nós</h2>
+   <p>
+     A TechUni é uma empresa fictícia especializada em soluções tecnológicas,
+    desenvolvimento web e inovação digital. Nosso objetivo é transformar ideias
+   em realidade através da tecnologia.
+  </p>
+ </section>
+
+ <section class="servicos">
+   <h2>Nossos Serviços</h2>
+    <div class="cards">
+    <div class="card">
+   <h3>Desenvolvimento Web</h3>
+ <p>Criação de sites modernos </p>
